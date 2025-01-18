@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Hi, I'm Nattawat! 👋
+=======
+
+>>>>>>> 4efce976d3e108afe368b1ddc979a0fe4d609398
 
 
 ## 🚀 About Me
