@@ -1,9 +1,7 @@
-
 # Hi, I'm Nattawat! 👋
 
 ## 🚀 About Me
 I'm a IT SUPPORT
-
 
 ## Other Common Github Profile Sections
 👩‍💻 I'm currently working on...
@@ -25,7 +23,6 @@ I'm a IT SUPPORT
 
 ## 🛠 Skills
 Javascript, HTML, CSS , figma , basic Network 
-
 
 ## FAQ
 
