@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> อิอิ </title>
+</head>
+
+<body>
+    <form>
+        <label>ชื่อผู้ใช้
+            <input name="username" type="text" placeholder="johndoe" />
+        </label>
+
+        <label>รหัสผ่าน
+            <input name="password" type="password" placeholder="your password" />
+        </label>
+
+        <label>
+            Email
+            <input name="email" type="email" placeholder="youremail@email.com" />
+        </label>
+        <h2> อาหารที่ชอบ</h2>
+        <label>
+            <input name="favouritFood" value="somtom" type="checkbox" checked />
+            ส้มตำ
+        </label>
+        <label>
+            <input name="favouritFood" value="mookrata" type="checkbox" checked />
+            ชาบู
+        </label>
+        <label>
+            <input name="favouritFood" value="pinyang" type="checkbox" checked />
+            ปิ้งย่าง
+        </label>
+
+        <h2> ใช่หรือไม่</h2>
+        <label>
+            <input name="yesOrNo" value="yes" type="radio" /> ใช่
+        </label>
+
+        <label>
+            <input name="yesOrNo" value="maybe" type="radio" /> อาจจะ
+        </label>
+
+        <label>
+            <input name="yesOrNo" value="no" type="radio" /> ไม่ใช่
+        </label>
+
+        <h2>จังหวัด</h2>
+        <select name="province">
+            <optgroup label="ภาคเหนือ">
+                <option value="เชียงใหม่">เชียงใหม่</option>
+                <option value="อุตรดิตถ์">อุตรดิตถ์</option>
+                <option value="กำแพงเพชร">กำแพงเพชร</option>
+            </optgroup>
+
+            <optgroup label="ภาคกลาง">
+                <option selected value="กรุงเทพมหานคร"> กรุงเทพมหานคร </option>
+                <option value="กาญจนบุรี">กาญจนบุรี</option>
+                <option value=" ชัยนาท"> ชัยนาท</option>
+            </optgroup>
+        </select>
+
+        <label>
+            Comment
+            <textarea name="comment">
+
+        </textarea>
+        </label>
+
+        <label>
+            <input type="checkbox" required />
+            ยอมรับข้อตกลงและเงื่อนไขการใช้งาน
+        </label>
+        <button type="submit">ส่งฟอร์ม</button>
+
+
+    </form>
+</body>
+
+</html>
