@@ -1,8 +1,8 @@
 <?php
 class DB extends DBmysql {
-   public $dbhost = 'localhost';
+   public $dbhost = '192.168.100.10';
    public $dbuser = 'root';
-   public $dbpassword = 'yuanlin@0888';
+   public $dbpassword = 'yuanlin%40888';
    public $dbdefault = 'glpi';
    public $use_timezones = true;
    public $use_utf8mb4 = true;
