@@ -1,7 +1,7 @@
 # Hi, I'm Nattawat! 👋
 
 ## 🚀 About Me
-I'm a IT SUPPORT
+I'm derb
 
 ## Other Common Github Profile Sections
 👩‍💻 I'm currently working on...
