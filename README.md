@@ -7,6 +7,16 @@ Sole IT engineer in manufacturing environments (100+ users) — running real inf
 
 ---
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DerbSwag&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DerbSwag&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=ff6e40&currStreakLabel=58a6ff" height="165" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DerbSwag&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+</p>
+
+
+
 ## 🏗️ Hybrid Lab Architecture
 
 ```
@@ -36,6 +46,31 @@ Sole IT engineer in manufacturing environments (100+ users) — running real inf
 ---
 
 ## 💻 Tech Stack
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/FortiGate-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
 
 **Actively running in lab:**
 
@@ -103,6 +138,38 @@ Production-oriented automation toolkit for IT endpoint onboarding, inventory col
 `PowerShell` `Batch Scripting` `GLPI` `GitHub Actions`
 
 ---
+
+### 🌐 Web Development Projects
+
+### [เหมียวเอ็น MeowN — Premium Cat Services](https://meown-website.vercel.app/)
+Company profile website สำหรับธุรกิจบริการแมวครบวงจร — Dark premium design ด้วยเทคนิคระดับ World-class
+
+- **6 หน้า** — Hero + Services + About + Portfolio + Reviews + FAQ + Contact + 4 Service Detail Pages
+- **Admin Dashboard** — Lead management, content editor, analytics chart, backup/import system
+- **Advanced UI** — Aurora background, custom cursor, 3D tilt card, glassmorphism, scroll reveal
+- **Real-time form validation** + localStorage sync ระหว่าง front-end ↔ admin
+
+`HTML5` `CSS3` `JavaScript` `Vercel` `Glassmorphism` `IntersectionObserver`
+
+🔗 [Live Demo](https://meown-website.vercel.app/) · 🔒 Private Repo
+
+---
+
+### [Zone Sleep Hotel — Luxury Boutique Hotel](https://zone-sleep-hotel.vercel.app/)
+เว็บไซต์โรงแรมบูทีค Full-Stack พร้อมระบบจองห้องพักครบวงจร — Luxury & Industrial Loft design
+
+- **Booking system** — 3-step modal (ข้อมูลผู้จอง → อัปโหลดสลิป → ใบเสร็จ + QR Code)
+- **i18n** — สลับภาษา TH/EN ได้ทันที
+- **Admin Dashboard** — Login + session expiry 24 ชม., booking management, room CRUD, settings
+- **Database layer** — localStorage module (HotelDB) พร้อม locking mechanism
+
+`HTML5` `CSS3` `JavaScript` `EJS` `QRCode.js` `Vercel` `i18n`
+
+🔗 [Live Demo](https://zone-sleep-hotel.vercel.app/) · 🔒 Private Repo
+
+---
+
+
 
 ## 📊 Infrastructure Status
 
