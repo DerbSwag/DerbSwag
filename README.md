@@ -1,4 +1,4 @@
-# Hi, I'm Natthawat (DerbSwag) 👋
+﻿# Hi, I'm Natthawat (DerbSwag) 👋
 
 **IT Infrastructure Engineer → DevOps Engineer**
 
@@ -39,7 +39,7 @@ Sole IT engineer in manufacturing environments (100+ users) — running real inf
 </p>
 
 **Actively running in lab:**
-`Docker` `Docker Compose` `Kubernetes (k3s)` `Helm` `ArgoCD` `GitHub Actions` `Self-hosted Runner` `GHCR` `Prometheus` `Grafana` `Loki` `Alertmanager` `Zabbix v7` `Proxmox VE` `Ubuntu Server 24.04` `FastAPI` `PostgreSQL` `Python` `Bash`
+`Docker` `Docker Compose` `Kubernetes (k3s)` `Helm` `ArgoCD` `GitHub Actions` `Self-hosted Runner` `GHCR` `Prometheus` `Grafana` `Loki` `Alertmanager` `Zabbix v7` `Proxmox VE` `Ubuntu Server 24.04` `FastAPI` `PostgreSQL` `Python` `Bash` `Terraform` `Ansible`
 
 **Kubernetes concepts mastered (verified in lab):**
 `Deployments` `StatefulSet` `DaemonSet` `RBAC` `Ingress + TLS` `cert-manager` `HPA` `NetworkPolicy` `Helm packaging` `GitOps (ArgoCD)`
@@ -48,7 +48,7 @@ Sole IT engineer in manufacturing environments (100+ users) — running real inf
 `FortiGate 60F` `MikroTik` `VLAN Segmentation` `VPN / NAT / Firewall` `QNAP NAS` `VMware` `Backup & DR` `SQL Server` `PowerShell` `Google Workspace` `GLPI`
 
 **Learning next:**
-`Terraform` `Ansible` `Jenkins` `WireGuard VPN` `AWS / Azure fundamentals`
+`Jenkins` `WireGuard VPN` `AWS / Azure fundamentals`
 
 ---
 
@@ -120,6 +120,20 @@ Desktop attendance system simulating employee time tracking in a manufacturing e
 
 ---
 
+### [ZONELOOP — AI Music Monetization](https://github.com/DerbSwag/zoneloop)
+Automated AI music pipeline — Lo-fi beats generated with Suno AI, distributed to all platforms, streamed 24/7.
+
+- **30 tracks** — 2 batches distributed via DistroKid to Spotify, Apple Music + 24 platforms
+- **24/7 YouTube Live** — FFmpeg stream on GCP VM (e2-micro free tier)
+- **Automation** — One-command pipeline: cover art gen, metadata, YouTube Shorts/TikTok upload
+- **Monitoring** — LINE Messaging API health check for stream status
+
+`Python` `FFmpeg` `GCP` `Suno AI` `DistroKid` `YouTube API`
+
+---
+
+---
+
 ### 🌐 Web Development
 
 ### [เหมียวเอ็น MeowN — Premium Cat Services](https://meown-website.vercel.app/)
@@ -161,8 +175,8 @@ Full-stack hotel website with complete booking system, i18n (TH/EN), and admin d
 | FortiGate 60F (perimeter) | Company Lab | ✅ Running |
 | bind9 DNS server | Company Lab | 🔄 In Progress |
 | VPN tunnel (Home ↔ Company) | Both | 📋 Planned |
-| Terraform IaC | Both | 📋 Planned |
-| Ansible config management | Both | 📋 Planned |
+| Terraform IaC | Both | ✅ Running |
+| Ansible config management | Both | ✅ Running |
 
 ---
 
@@ -197,8 +211,6 @@ Sole IT engineer for a manufacturing facility (100+ users). Responsible for all 
 - ✅ L8: GitOps (ArgoCD auto-sync + self-heal) + Loki logging stack
 
 **Coming Next:**
-- 🎯 Terraform — Proxmox VM provisioning (IaC)
-- 🎯 Ansible — cross-lab config management
 - 🎯 WireGuard/Tailscale VPN — site-to-site tunnel (Home ↔ Company)
 - 🎯 Jenkins — self-hosted CI server
 
