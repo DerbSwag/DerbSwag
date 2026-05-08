@@ -120,16 +120,16 @@ Desktop attendance system simulating employee time tracking in a manufacturing e
 
 ---
 
-### [ZONELOOP — AI Music Monetization](https://github.com/DerbSwag/zoneloop)
-Automated AI music pipeline — Lo-fi beats generated with Suno AI, distributed to all platforms, streamed 24/7.
+### [Content Automation Pipeline](https://github.com/DerbSwag/content-automation-pipeline)
+End-to-end automation system for content creation, processing, and multi-platform distribution.
 
-- **30 tracks** — 2 batches distributed via DistroKid to Spotify, Apple Music + 24 platforms
-- **24/7 YouTube Live** — FFmpeg stream on GCP VM (e2-micro free tier)
-- **Automation** — One-command pipeline: cover art gen, metadata, YouTube Shorts/TikTok upload
-- **Monitoring** — LINE Messaging API health check for stream status
+- **One-command pipeline** — Scan, process, generate metadata, create covers, distribute
+- **Multi-platform distribution** — YouTube Shorts, TikTok, 24/7 live stream (RTMP)
+- **Media processing** — FFmpeg audio/video, Pillow cover art generation
+- **Monitoring** — Health check with LINE alert on stream failure
+- **VPS provisioning** — One-command server setup (Docker, FFmpeg, systemd)
 
-`Python` `FFmpeg` `GCP` `Suno AI` `DistroKid` `YouTube API`
-
+`Python` `Bash` `FFmpeg` `YouTube API` `TikTok API` `LINE API` `GCP`
 ---
 
 ---
