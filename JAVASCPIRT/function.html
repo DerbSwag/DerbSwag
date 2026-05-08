@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const findGrade = (score) => {
+            if (score > 100 || score < 0) {
+                return 'คะแนนผิดพลาด';
+            }
+            
+            if (score >= 80) {
+                return 'A';
+            } 
+            
+            if (score >= 70) {
+                return 'B';
+            } 
+            
+            if (score >= 60) {
+                return 'C';
+            }
+            
+            if (score >= 50) {
+                return 'D';
+            } 
+
+            return 'F';
+        }
+
+        const studentA = findGrade(150);
+        console.log('std A: ', studentA);
+
+        const studentB = findGrade(80);
+        console.log('std B: ', studentB);
+
+        const studentC = findGrade(61);
+        console.log('std C: ', studentC);
+
+        const studentD = findGrade(49);
+        console.log('std D: ', studentD);
+
+
+
+        // const sawasdee = (name) => {
+        //     let suffix = '';
+
+        //     if (name !== undefined) {
+        //         suffix = ` คุณ${name}`;
+        //     }
+
+        //     return `สวัสดีจ้า${suffix}`
+        // }
+
+        // const s1 = sawasdee();
+        // const s2 = sawasdee('พีพี');
+
+        // console.log(s1, ' & ', s2)
+
+
+
+
+
+        /* function sawasdee(name) {
+
+            if (name === undefined) {
+                console.log('สวัสดีจ้า') 
+                } else {
+                    console.log('สวัสดีจ้า คุณ ' + name);
+                }
+            }
+ */
+     /*    const sawasdee = (name) =>{
+
+            if (name === undefined) {
+                return ('สวัสดีจ้า')
+            } else {
+                return ('สวัสดีจ้า คุณ ' + name);
+            }
+        }
+        const s1 = sawasdee();
+        sawasdee('fufu'); */
+
+
+    </script>
+</body>
+
+</html>

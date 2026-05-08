@@ -1,0 +1,23 @@
+/* กลุ่ม selector สำหรับ div */
+div {
+    /* สไตล์ที่ใช้กับ div ทุกอัน */
+    border: 1px solid black;
+  }
+  
+  .div-red {
+    background-color: red;
+  }
+  
+  .div-blue {
+    background-color: blue;
+  }
+  
+  /* กลุ่ม selector สำหรับข้อความ */
+  .text {
+    color: white;
+  }
+  
+  /* กลุ่ม selector อื่นๆ */
+  p {
+    font-size: 16px;
+  }
