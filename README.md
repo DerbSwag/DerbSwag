@@ -6,6 +6,28 @@ Sole IT engineer in manufacturing environments (100+ users) — running real inf
 
 📍 Chonburi, Thailand  |  📧 natthawat.derb@gmail.com  |  💼 [github.com/DerbSwag](https://github.com/DerbSwag)
 
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+
+---
+
+## 🔭 Currently Working On
+
+- 🤖 **AI Helpdesk Bot** — Ollama-powered IT support chatbot for Lark (proposal stage)
+- 🏗️ **Hybrid Lab** — WireGuard VPN tunnel (Home ↔ Company), bind9 DNS
+- ☁️ **AWS Terraform Lab** — Adding RDS, ALB, Route53, remote state
+- 📚 **DevOps Assistant Agent** — RAG-powered chatbot on Google Cloud Agent Builder
+
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DerbSwag&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="160" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DerbSwag&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=ff6e40&currStreakLabel=58a6ff" height="160" />
@@ -131,6 +153,50 @@ End-to-end automation system for content creation, processing, and multi-platfor
 
 `Python` `Bash` `FFmpeg` `YouTube API` `TikTok API` `LINE API` `GCP`
 ---
+
+---
+
+### [AWS Terraform Lab](https://github.com/DerbSwag/aws-terraform-lab)
+Infrastructure as Code — Deploy production-like FastAPI on AWS with Terraform.
+
+- VPC + EC2 + Security Groups + Docker deployment
+- User data bootstrap (Docker + Nginx + FastAPI)
+- CI: terraform fmt + validate
+
+`Terraform` `AWS` `Docker` `Nginx` `FastAPI`
+
+---
+
+### [Ansible Playbooks](https://github.com/DerbSwag/ansible-playbooks)
+Ansible playbooks for hybrid lab automation across Home Lab and Company Lab.
+
+- Docker setup, FastAPI deploy, Monitoring stack, Server hardening
+- Jinja2 templates for Docker Compose, Nginx, Prometheus
+
+`Ansible` `Docker` `Ubuntu` `Prometheus` `Grafana`
+
+---
+
+### [DevOps Assistant Agent](https://github.com/DerbSwag/devops-assistant-agent)
+AI-powered DevOps Assistant on Google Cloud Agent Builder with RAG.
+
+- Gemini 2.5 Pro + Data Store grounding (28 knowledge files)
+- Answers questions about Terraform, Ansible, Docker, CI/CD, LLMOps
+
+`Google Cloud` `Gemini` `RAG` `Vertex AI` `Python`
+
+---
+
+### [LLMOps Platform Lab](https://github.com/DerbSwag/llmops-platform-lab)
+Production-grade MLOps/LLMOps Lab — LLM Gateway, RAG Pipeline, AI Security, Monitoring.
+
+- LLM Gateway (FastAPI) with model routing
+- RAG pipeline + Prompt Guard + AI security scanning
+- Prometheus + Grafana observability
+
+`Python` `Docker` `FastAPI` `Prometheus` `Grafana` `RAG`
+
+
 
 ---
 
