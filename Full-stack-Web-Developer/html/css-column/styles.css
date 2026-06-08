@@ -1,0 +1,10 @@
+/* Column 4 กว้างไม่น้อยกว่า 150px ไม่มี Gap ห่าง */
+.column-container {
+  column-count: 4;
+  column-width: 150px;
+  column-gap: 0px;
+}
+
+.column-container > div {
+  border: 1px solid black;
+}

@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+/* Flex */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flex-item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 100%; /* Default to full width on mobile */
+  box-sizing: border-box;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem; /* Smaller font on mobile */
+  }
+
+  .flex-container {
+    flex-direction: column; /* Stack boxes vertically */
+  }
+
+  .flex-item {
+    order: initial; /* No specific order on mobile */
+    font-size: 1rem; /* Smaller font-size in the boxes */
+  }
+}
+
+/* Desktop View */
+@media (min-width: 769px) {
+  h1 {
+    font-size: 2.5rem; /* Larger font on desktop */
+  }
+
+  .container {
+    flex-direction: row; /* Arrange boxes horizontally */
+  }
+
+  .flex-item {
+    flex: 1 1 30%; /* Each box takes up 30% of the width */
+    font-size: 1.2rem; /* Larger font-size in the boxes */
+  }
+
+  /* Specific Flex Item Order on Desktop */
+  .flex-item:nth-child(1) {
+    order: 2; /* First box appears second */
+  }
+
+  .flex-item:nth-child(2) {
+    order: 3; /* Second box appears third */
+  }
+
+  .flex-item:nth-child(3) {
+    order: 1; /* Third box appears first */
+  }
+}
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-item {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ตารางเต็มขนาดจอ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  /* ไม่ตัดบรรทัดใหม่ เพราะต้องการแสดงแถวเดียวเพื่อความอ่านง่าย */
+  white-space: nowrap;
+}
+
+/* sticky เฉพาะ Column แรก */
+/* หากต้องการแก้ปัญหาเส้นหายตอน sticky: https://stackoverflow.com/a/53559396/1780384 */
+th:first-child,
+td:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}

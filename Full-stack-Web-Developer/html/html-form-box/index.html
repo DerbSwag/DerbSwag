@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <!-- <label> ใช้ได้ทั้งแบบ Sibling (อยู่ข้างกัน) หรือ Nesting (อยู่ภายใน) -->
+    <div>
+      <input type="checkbox" id="accept-terms" name="accept-terms" />
+      <label for="accept-terms">I accept the terms and conditions (1)</label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" name="accept-terms" />
+        I accept the terms and conditions (2)
+      </label>
+    </div>
+
+    <div>
+      <label for="subscribe-email">
+        <input
+          type="checkbox"
+          id="subscribe-email"
+          name="subscribe-email"
+          checked
+        />
+        Subscribe to our newsletter
+      </label>
+    </div>
+
+    <hr />
+
+    <div>
+      <label for="gender">Select Gender:</label>
+      <div>
+        <label>
+          <input type="radio" id="male" name="gender" value="male" />
+          Male
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="radio" id="female" name="gender" value="female" />
+          Female
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="radio" id="other" name="gender" value="other" />
+          Other
+        </label>
+      </div>
+    </div>
+
+    <hr />
+
+    <div>
+      <label for="country">Select Country:</label>
+      <select id="country" name="country">
+        <option value="thailand">Thailand</option>
+        <option value="vietnam">Vietnam</option>
+        <option value="singapore">Singapore</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="philippines">Philippines</option>
+        <option value="myanmar">Myanmar</option>
+        <option value="laos">Laos</option>
+        <option value="cambodia">Cambodia</option>
+        <option value="brunei">Brunei</option>
+      </select>
+    </div>
+
+    <hr />
+
+    <div>
+      <label for="programming-categories">Select Programming Language:</label>
+      <select id="programming-categories" name="programming-categories">
+        <optgroup label="Web Development">
+          <option value="javascript">JavaScript</option>
+          <option value="typescript">TypeScript</option>
+          <option value="php">PHP</option>
+          <option value="ruby">Ruby</option>
+        </optgroup>
+        <optgroup label="System Programming">
+          <option value="c">C</option>
+          <option value="cpp">C++</option>
+          <option value="rust">Rust</option>
+          <option value="go">Go</option>
+        </optgroup>
+        <optgroup label="Mobile Development">
+          <option value="swift">Swift</option>
+          <option value="kotlin">Kotlin</option>
+        </optgroup>
+        <optgroup label="Data Science and Machine Learning">
+          <option value="python">Python</option>
+          <option value="r">R</option>
+          <option value="julia">Julia</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <hr />
+
+    <div>
+      <label for="programming-languages">Select Programming Languages:</label>
+      <div>
+        <select
+          id="programming-languages"
+          name="programming-languages"
+          multiple
+          size="10"
+        >
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="java">Java</option>
+          <option value="csharp">C#</option>
+          <option value="ruby">Ruby</option>
+          <option value="php">PHP</option>
+          <option value="go">Go</option>
+          <option value="swift">Swift</option>
+          <option value="typescript">TypeScript</option>
+          <option value="rust">Rust</option>
+          <option value="kotlin">Kotlin</option>
+          <option value="c">C</option>
+          <option value="cpp">C++</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

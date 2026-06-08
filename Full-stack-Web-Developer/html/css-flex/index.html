@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Flex Container -->
+    <div class="flex-container">
+      <!-- Flex Item -->
+      <div>Flex Item 1</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (แกนหลัก) justify-content: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content -->
+    <div class="flex-container" style="justify-content: center">
+      <div>justify-content</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (แกนรอง) align-items: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items -->
+    <div class="flex-container" style="align-items: center">
+      <div>align-items</div>
+      <div>
+        <div style="width: 50px; height: 100px; background: yellow"></div>
+      </div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <div
+      class="flex-container"
+      style="
+        justify-content: center;
+        align-items: center;
+        background: lightgreen;
+        height: 300px;
+      "
+    >
+      <div>All Center</div>
+    </div>
+
+    <hr />
+
+    <!-- (ระยะห่างระหว่าง Flex Item) gap: https://developer.mozilla.org/en-US/docs/Web/CSS/gap -->
+    <div class="flex-container" style="gap: 12px">
+      <div>gap</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (ตัดบรรทัด) flex-wrap: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap -->
+    <div class="flex-container" style="flex-wrap: wrap">
+      <div>flex-wrap</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+      <div>Flex Item 4</div>
+      <div>Flex Item 5</div>
+      <div>Flex Item 6</div>
+      <div>Flex Item 7</div>
+      <div>Flex Item 8</div>
+      <div>Flex Item 9</div>
+      <div>Flex Item 10</div>
+      <div>Flex Item 11</div>
+      <div>Flex Item 12</div>
+    </div>
+
+    <hr />
+
+    <!-- (ทิศ Flex Item) flex-direction: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction -->
+    <div
+      class="flex-container"
+      style="flex-direction: column; align-items: center"
+    >
+      <div>flex-direction</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (ขนาดเริ่มต้น) flex-basis: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis -->
+    <div class="flex-container">
+      <div style="flex-basis: 50px">flex-basis</div>
+      <div style="flex-basis: 50px">Flex Item 2</div>
+      <div style="flex-basis: 50px">Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (สเกลขยาย) flex-grow: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow -->
+    <div class="flex-container">
+      <div style="flex-basis: 50px; flex-grow: 1">flex-grow</div>
+      <div style="flex-basis: 50px; flex-grow: 2">Flex Item 2</div>
+      <div style="flex-basis: 50px; flex-grow: 3">Flex Item 3</div>
+    </div>
+
+    <hr />
+
+    <!-- (สเกลลดขนาด) flex-shrink: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink -->
+    <div class="flex-container">
+      <div style="flex-basis: 100px; flex-grow: 1; flex-shrink: 2">
+        flex-shrink
+      </div>
+      <div style="flex-basis: 100px; flex-grow: 1">Flex Item 2</div>
+      <div style="flex-basis: 100px; flex-grow: 1">Flex Item 3</div>
+      <div style="flex-basis: 100px; flex-grow: 1">Flex Item 4</div>
+      <div style="flex-basis: 100px; flex-grow: 1">Flex Item 5</div>
+      <div style="flex-basis: 100px; flex-grow: 1">Flex Item 6</div>
+    </div>
+  </body>
+</html>

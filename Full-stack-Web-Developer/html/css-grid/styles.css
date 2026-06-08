@@ -1,0 +1,9 @@
+/* Grid Container */
+.grid-container {
+  display: grid;
+}
+
+/* Grid Item */
+.grid-container > div {
+  border: 1px dashed black;
+}

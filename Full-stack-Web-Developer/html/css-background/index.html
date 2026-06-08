@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section class="img-list-filter">
+      <img src="/img/video-game-1.jpg" alt="" />
+      <img src="/img/video-game-2.jpg" alt="" />
+      <img src="/img/video-game-3.jpg" alt="" />
+    </section>
+
+    <hr />
+
+    <!-- object-fit: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit -->
+    <img
+      style="width: 130px; height: 220px"
+      src="/img/engineering.jpg"
+      alt="Fit fill (default)"
+    />
+    <img
+      style="width: 130px; height: 220px; object-fit: cover"
+      src="/img/engineering.jpg"
+      alt="Fit cover"
+    />
+
+    <hr />
+
+    <section class="pattern-background">
+      <h1>Title</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        ligula urna, iaculis sed lectus vitae, facilisis commodo magna. Aliquam
+        erat volutpat. Fusce rutrum laoreet mi pellentesque molestie. Curabitur
+        sed semper massa. Nulla dictum vulputate nisl eu euismod. Duis lobortis
+        erat ac arcu pretium suscipit. In a dignissim lacus, id accumsan dolor.
+        Mauris vel neque eget est vestibulum pulvinar et rutrum urna. Duis ex
+        erat, ornare quis tellus at, finibus dictum urna. Maecenas venenatis
+        sagittis tellus ut ullamcorper.
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="xp-wallpaper">
+      <article class="xp-container">
+        <h1>Title</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          ligula urna, iaculis sed lectus vitae, facilisis commodo magna.
+          Aliquam erat volutpat. Fusce rutrum laoreet mi pellentesque molestie.
+          Curabitur sed semper massa. Nulla dictum vulputate nisl eu euismod.
+          Duis lobortis erat ac arcu pretium suscipit. In a dignissim lacus, id
+          accumsan dolor. Mauris vel neque eget est vestibulum pulvinar et
+          rutrum urna. Duis ex erat, ornare quis tellus at, finibus dictum urna.
+          Maecenas venenatis sagittis tellus ut ullamcorper.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+
+    <!-- https://cssgradient.io/ -->
+    <section
+      style="
+        height: 200px;
+        background: rgb(1, 11, 88);
+        background: linear-gradient(
+          332deg,
+          rgba(1, 11, 88, 1) 0%,
+          rgba(0, 40, 140, 1) 35%,
+          rgba(70, 0, 164, 1) 62%,
+          rgba(48, 1, 97, 1) 100%
+        );
+      "
+    ></section>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+.box {
+  background: lightgreen;
+  /* margin: https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+  margin: 1em;
+  /* padding: https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+  padding: 1em;
+  /* border: https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+  border: 0.5em solid pink;
+  /* outline: https://developer.mozilla.org/en-US/docs/Web/CSS/outline */
+  outline: 0.5em solid skyblue;
+}
+
+.custom-table {
+  /* แก้ปัญหาขอบมีระยะห่างบน <table> */
+  border-collapse: collapse;
+}
+
+.custom-table td {
+  /* สร้างขอบและระยะห่างทุกเซลล์ของตาราง */
+  border: 2px solid black;
+  padding: 0.5em;
+}
+
+/* border = ใช้ได้ทั่วไป เพิ่มพื้นที่จริง จัดเนื้อหาง่าย */
+.child-border > div {
+  background: yellow;
+  margin: 0.7em 0;
+  border: 5px solid green;
+}
+/* outline = ใช้เป็นบางกรณี ไม่มีการเพิ่มพื้นที่จริง จัดเนื้อหาเฉพาะบางอย่าง */
+.child-outline > div {
+  background: yellow;
+  margin: 0.7em 0;
+  outline: 5px solid red;
+}
+
+/* การใช้ display: inline-block; เพื่อทำให้การใช้ Box Model ดีขึ้นบน Element Inline */
+.span-inline {
+  border: 1px solid black;
+  margin: 1em 0;
+}
+.span-inline > span {
+  background: pink;
+  padding: 0.5em;
+}
+.span-inline-block {
+  border: 1px solid black;
+}
+.span-inline-block > span {
+  display: inline-block;
+  background: lightgreen;
+  padding: 0.5em;
+}
+
+/* ขอบมน */
+.make-border-radius {
+  background: lightgreen;
+  padding: 1em;
+  border-radius: 0.5em;
+  /* เงาบน Box Model */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+.make-border-radius-full {
+  background: lightgreen;
+  padding: 1em;
+  border-radius: 9999px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ประโยชน์การใช้ outline บน :focus */
+.btn {
+  display: inline-block;
+  padding: 0.75em 1.25em;
+  color: white;
+  background: #007bff;
+  /* ปิดการแสดงขอบจากรูปแบบปุ่มเดิม */
+  border: none;
+  border-radius: 8px;
+  /* แสดงเม้าส์ชี้ */
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0056b3;
+}
+.btn:focus {
+  outline: 2px dashed #007bff;
+  outline-offset: 2px;
+}
+
+/* จัดการเนื้อหาที่ล้นด้วย overflow */
+.box-handle-overflow {
+  overflow: auto;
+  background: yellow;
+  padding: 1em;
+  height: 200px;
+}

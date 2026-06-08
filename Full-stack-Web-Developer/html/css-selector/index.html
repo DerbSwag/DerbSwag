@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <p>only p</p>
+    <p class="text-green bg-yellow">p with .text-green, .bg-yellow</p>
+    <p id="title">p with #title</p>
+
+    <hr />
+
+    <a href="https://example.com/">❌ without target="_blank"</a><br />
+    <a href="https://example.com/" target="_blank">✅ with target="_blank"</a>
+
+    <hr />
+
+    <div class="article-title">✅ div with .article-title</div>
+    <section class="article-title">❌ section with .article-title</section>
+
+    <hr />
+
+    <header>✅ Header</header>
+    <main>❌ Main</main>
+    <footer>✅ Footer</footer>
+
+    <hr />
+
+    <section class="select-descendant">
+      <div>✅ Div 1 (.select-descendant)</div>
+      <div>✅ Div 2</div>
+      <section>
+        <div>✅ Div > Div 1</div>
+        <div>✅ Div > Div 2</div>
+      </section>
+    </section>
+
+    <hr />
+
+    <section class="select-child">
+      <div>✅ Div 1 (.select-child)</div>
+      <div>✅ Div 2</div>
+      <section>
+        <div>❌ Div > Div 1</div>
+        <div>❌ Div > Div 2</div>
+      </section>
+    </section>
+
+    <hr />
+
+    <section class="select-sibling">
+      <div>❌ Div 1 (.select-sibling)</div>
+      <div>✅ Div 2</div>
+      <div>✅ Div 3</div>
+    </section>
+
+    <hr />
+
+    <table>
+      <caption>
+        No style
+      </caption>
+      <thead>
+        <tr>
+          <th>Head 1</th>
+          <th>Head 2</th>
+          <th>Head 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Body 1</td>
+          <td>Body 2</td>
+          <td>Body 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Foot 1</th>
+          <th>Foot 2</th>
+          <th>Foot 3</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <table class="with-styles">
+      <caption>
+        With style (Nesting)
+      </caption>
+      <thead>
+        <tr>
+          <th>Head 1</th>
+          <th>Head 2</th>
+          <th>Head 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Body 1</td>
+          <td>Body 2</td>
+          <td>Body 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Foot 1</th>
+          <th>Foot 2</th>
+          <th>Foot 3</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

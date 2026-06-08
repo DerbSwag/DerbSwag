@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section class="box">
+      Lightgreen = Padding area;<br />
+      Pink = Border area;<br />
+      SkyBlue = Outline area;
+    </section>
+
+    <hr />
+
+    <!-- ประโยชน์ margin: เพิ่มระยะห่าง Element อื่นๆ -->
+    <section>
+      <div style="margin-bottom: 1em">Div 1</div>
+      <div>Div 2</div>
+      <div>Div 3</div>
+      <div>Div 4</div>
+    </section>
+
+    <hr />
+
+    <!-- ประโยชน์ padding: เพิ่มระยะห่างภายใน Content -->
+    <!-- ประโยชน์ border: แสดงขอบเขตเนื้อหา Element -->
+    <section>
+      <table class="custom-table">
+        <tbody>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- ทำ Block ให้อยู่กึ่งกลางด้วย margin: 0 auto; -->
+    <div
+      style="
+        width: 60px;
+        height: 30px;
+        background: lightgreen;
+        /* จัดระยะห่างให้อยู่กึ่งกลางพอดี */
+        margin: 0 auto;
+      "
+    >
+      Block
+    </div>
+
+    <hr />
+
+    <!-- ทำ Inline หรือ Inline Block ภายในให้อยู่กึ่งกลางด้วย text-align: center; -->
+    <div style="text-align: center">
+      <span>Inline</span>
+    </div>
+
+    <hr />
+
+    <!-- width 25% = 1/4 ของขนาดบน Parent -->
+    <section style="background: yellow; height: 50px">
+      <div
+        style="
+          display: inline-block;
+          border: 1px solid black;
+          width: 25%;
+          background: lightgreen;
+        "
+      >
+        Div 1
+      </div>
+      <div
+        style="
+          display: inline-block;
+          border: 1px solid black;
+          width: 25%;
+          background: lightgreen;
+        "
+      >
+        Div 2
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- ข้อแตกต่างของขอบ border และ outline -->
+    <section class="child-border">
+      <div>Div 1</div>
+      <div>Div 2</div>
+      <div>Div 3</div>
+    </section>
+    <hr />
+    <section class="child-outline">
+      <div>Div 1</div>
+      <div>Div 2</div>
+      <div>Div 3</div>
+    </section>
+
+    <hr />
+
+    <!-- ข้อแตกต่างการกำหนดขนาดบน inline และ inline-block -->
+    <section class="span-inline">
+      <span>Inline 1</span>
+      <span>Inline 2</span>
+      <span>Inline 3</span>
+      <b>Another inline</b>
+    </section>
+    <section class="span-inline-block">
+      <span>Inline Block 1</span>
+      <span>Inline Block 2</span>
+      <span>Inline Block 3</span>
+      <b>Another inline</b>
+    </section>
+
+    <hr />
+
+    <div class="make-border-radius">Radius</div>
+    <div class="make-border-radius-full">Full Radius</div>
+
+    <hr />
+
+    <button class="btn">Button 1</button>
+    <button class="btn">Button 2</button>
+
+    <hr />
+
+    <article class="box-handle-overflow">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        ligula urna, iaculis sed lectus vitae, facilisis commodo magna. Aliquam
+        erat volutpat. Fusce rutrum laoreet mi pellentesque molestie. Curabitur
+        sed semper massa. Nulla dictum vulputate nisl eu euismod. Duis lobortis
+        erat ac arcu pretium suscipit. In a dignissim lacus, id accumsan dolor.
+        Mauris vel neque eget est vestibulum pulvinar et rutrum urna. Duis ex
+        erat, ornare quis tellus at, finibus dictum urna. Maecenas venenatis
+        sagittis tellus ut ullamcorper.
+      </p>
+
+      <p>
+        Curabitur dignissim mollis velit, ut auctor sem bibendum vitae. Praesent
+        eleifend neque vitae convallis laoreet. Etiam semper fringilla ante at
+        luctus. Proin odio augue, auctor vel ex ut, tristique blandit turpis.
+        Pellentesque nec elit velit. Nulla purus turpis, viverra et molestie at,
+        vehicula eget purus. Morbi nisi urna, rutrum et est vel, cursus semper
+        felis. Fusce auctor quis sem non varius. Morbi eleifend orci a turpis
+        pellentesque pharetra. Etiam congue sit amet nisl sed lobortis.
+      </p>
+
+      <p>
+        Aliquam lacus neque, maximus vel elementum id, pretium nec ligula.
+        Vestibulum nec nunc fermentum, mollis diam ut, malesuada nibh. Orci
+        varius natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Integer sit amet tortor dolor. Donec congue diam sed
+        dictum porttitor. Vivamus pulvinar felis quis turpis hendrerit, ac
+        consectetur arcu consectetur. Cras vitae enim libero. Donec ut
+        pellentesque ex, quis feugiat magna. Ut sit amet tincidunt diam.
+        Vestibulum arcu erat, lacinia sit amet lectus a, tristique fringilla
+        leo. Nam erat libero, tempus vel convallis at, tempus sollicitudin
+        mauris. Donec dui elit, porttitor ut posuere id, elementum vel libero.
+        Quisque leo felis, pellentesque vel auctor sed, interdum id ante. Donec
+        id molestie eros.
+      </p>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      /*
+        * = 0
+        tag = 1
+        .class = 10
+        [attribute] = 10
+        #id = 100
+        h1.title = 11
+        h1#title = 101
+        h1.title > .text = 11 + 10 = 21
+        !important = 10000
+      */
+
+      /* score 1 */
+      p {
+        color: red;
+      }
+
+      /* score 10 */
+      .green {
+        color: green;
+      }
+
+      /* score 10 + 1 = 11 */
+      .all-child-blue > p {
+        color: blue;
+      }
+
+      /* score 10 + 1 + 100 = 111 */
+      #orange {
+        color: orange;
+      }
+
+      /* score 10000 */
+      .must-be-pink {
+        color: pink !important;
+      }
+    </style>
+  </head>
+  <body>
+    <p>score 1</p>
+
+    <p class="green">score 10</p>
+
+    <div class="all-child-blue">
+      <p>score 10 + 1 = 11</p>
+      <p id="orange">score 10 + 1 + 100 = 111</p>
+      <p id="orange" style="color: black">inline style</p>
+      <div>
+        <p>score 1 (ไม่มี Selector)</p>
+        <p id="orange" class="green must-be-pink">score 10000</p>
+        <p id="orange" class="green must-be-pink" style="color: black">
+          inline style (!important สำคัญกว่า)
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

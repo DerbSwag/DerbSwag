@@ -1,0 +1,9 @@
+/* Flex Container */
+.flex-container {
+  display: flex;
+}
+
+/* Flex Item */
+.flex-container > div {
+  border: 1px dashed black;
+}

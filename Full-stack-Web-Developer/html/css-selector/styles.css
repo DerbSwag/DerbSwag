@@ -1,0 +1,92 @@
+/* Type Selector (เลือก Tag มักใช้กรณีเริ่มต้น) */
+p {
+  color: red;
+}
+
+/* Class Selector (นิยมใช้มากที่สุด) */
+.text-green {
+  color: green;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+
+/* ID Selector (ทั้งไฟล์ .html จะต้องมี id="" เพียงหนึ่งเดียว) */
+#title {
+  color: blue;
+}
+
+/* Attribute Selector (ใช้กับ Attribute พิเศษ) */
+[target='_blank'] {
+  color: green;
+}
+
+/* Universal Selector (เลือกทั้งหมด ไม่ค่อยได้ใช้และไม่แนะนำ) */
+* {
+  font-family: monospace;
+}
+
+/* ใช้เพื่อสืบทอด (inherit) แทนการใช้ Universal Selector */
+body {
+  font-family: monospace;
+}
+
+/* Compound (เพิ่มเงื่อนไขการเลือก) */
+div.article-title {
+  /* ปฏิเสธการใช้สืบทอด เปลี่ยนเป็นฟอนต์อื่นแทน */
+  font-family: 'Impact';
+}
+
+/* Grouping (ใช้ Property ร่วมกันหลาย Selector) */
+header,
+footer {
+  color: green;
+}
+
+/* Combinator (เลือกตามความสัมพันธ์) */
+/* - Descendant (เลือกลูกหลานทั้งหมด ใช้เว้นวรรค) */
+section.select-descendant div {
+  color: green;
+}
+/* - Child (เลือกลูกเท่านั้น ใช้เครื่องหมายมากกว่า) */
+section.select-child > div {
+  color: green;
+}
+/* - Sibling (เลือกน้องเท่านั้น ใช้เครื่องหมายบวก) */
+section.select-sibling > div + div {
+  color: green;
+}
+
+/* Nesting (ลดการใช้ชื่อ Selector ซ้ำ; ยังเป็น Feature ใหม่) */
+table.with-styles {
+  border-collapse: collapse;
+  thead {
+    color: red;
+  }
+  tbody {
+    color: green;
+  }
+  tfoot {
+    color: blue;
+  }
+  th,
+  td {
+    border: 1px solid black;
+  }
+}
+/* table.with-styles {
+  border-collapse: collapse;
+}
+table.with-styles thead {
+  color: red;
+}
+table.with-styles tbody {
+  color: green;
+}
+table.with-styles tfoot {
+  color: blue;
+}
+table.with-styles th,
+table.with-styles td {
+  border: 1px solid black;
+} */

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Responsive Design</h1>
+    <div class="flex-container">
+      <div class="flex-item">Box 1</div>
+      <div class="flex-item">Box 2</div>
+      <div class="flex-item">Box 3</div>
+    </div>
+
+    <hr />
+
+    <div class="grid-container">
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 4</div>
+      <div class="grid-item">Item 5</div>
+      <div class="grid-item">Item 6</div>
+    </div>
+
+    <hr />
+
+    <div class="image-container">
+      <!-- width: auto; กำหนดขนาดอัตโนมัติ -->
+      <!-- max-width: 100%; แต่ห้ามเกินขนาดรูปภาพ -->
+      <img
+        style="width: auto; max-width: 100%; margin: 0 auto"
+        src="/img/600x400.svg"
+        alt="Responsive Image"
+      />
+    </div>
+
+    <hr />
+
+    <!-- เมื่อเนื้อหาในตารางกว้างเกินไป วาง Container overflow ไว้ข้างนอก -->
+    <div style="overflow-x: auto">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>+1 555-123-4567</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>jane.smith@longemaildomain.com</td>
+            <td>+44 20 7946 0958</td>
+          </tr>
+          <tr>
+            <td>David Brown</td>
+            <td>david.brown@another-longemaildomain.com</td>
+            <td>+61 2 9374 4000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

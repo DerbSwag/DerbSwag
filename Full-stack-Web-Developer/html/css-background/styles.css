@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+/* filter: https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
+.img-list-filter > img {
+  filter: grayscale(1);
+}
+.img-list-filter > img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+.xp-wallpaper {
+  /* แก้ปัญหา xp-container margin แล้วขอบบนไม่ทำงาน */
+  display: flex;
+  background-image: url('/img/wallpaperxp.webp');
+  /* ไม่ทำซ้ำพื้นหลัง */
+  background-repeat: no-repeat;
+  /* แสดงพื้นหลังพอดีกับ Element */
+  background-size: cover;
+  /* วางตำแหน่งพื้นหลังล่างสุด */
+  background-position: bottom;
+  color: white;
+}
+.xp-container {
+  margin: 2em;
+  padding: 1em;
+  /* พื้นหลังแบบใส่ filter */
+  backdrop-filter: blur(1em);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5em;
+}
+
+/* Pattern: https://www.toptal.com/designers/subtlepatterns/ */
+.pattern-background {
+  background-image: url('/img/connectwork.webp');
+  /* เมื่อ Scroll พื้นหลังจะเคลื่อนตามเนื้อหา */
+  background-attachment: local;
+  height: 300px;
+  color: white;
+  padding: 1em;
+  overflow: auto;
+}

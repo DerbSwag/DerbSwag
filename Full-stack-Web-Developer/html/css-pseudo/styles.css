@@ -1,0 +1,76 @@
+/* ชี้ */
+.btn:hover {
+  background-color: red;
+}
+
+/* กด */
+.btn:active {
+  outline: 2px solid blue;
+  outline-offset: 1px;
+}
+
+/* เคยเข้า */
+a.link:visited {
+  color: blue;
+}
+
+/* ถูกโฟกัส เตรียมพิมพ์ หรือกด */
+.control:focus {
+  outline: 2px solid green;
+  outline-offset: 1px;
+}
+
+/* สถานะของ input */
+form.with-status input:valid {
+  color: green;
+}
+form.with-status input:invalid {
+  color: red;
+}
+
+/* สถานะของ input[type="checkbox และ radio"] */
+.check-status input[type='checkbox']:checked + span {
+  color: green;
+}
+.check-status input[type='radio']:indeterminate + span {
+  color: red;
+}
+
+/* ลูกคนแรก คนสุดท้าย และคนที่กำหนด */
+ul.list li:first-child {
+  color: green;
+}
+ul.list li:last-child {
+  color: red;
+}
+ul.list li:nth-child(3) {
+  color: orange;
+}
+
+/* เงื่อนไข มี Selector ภายในนั้น */
+.with-link:has(a) {
+  background-color: yellow;
+}
+
+/* เงื่อนไข ต้องไม่มี Selector ภายในนั้น */
+.without-list-item:not(:has(li)) {
+  background-color: lightgreen;
+}
+
+/* เลือกเนื้อหาก่อนหน้า และหลังจากนั้น */
+li.success::before {
+  content: '✅ ';
+}
+li.deprecated::after {
+  content: ' 🗑️';
+}
+
+/* เลือก placeholder */
+input.placeholder-green::placeholder {
+  color: green;
+}
+
+/* เลือก marker ของลำดับรายการ */
+ul.rocket-list li::marker {
+  content: '🚀 ';
+}
