@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <!--
+      <form> = แบบฟอร์มหลักส่งข้อมูล
+      [action] = Path ที่จะส่งข้อมูล
+      [method] = HTTP Method (GET หรือ POST)
+      <label> = ป้ายกำกับกรอกข้อมูล
+      <input> = กรอกข้อมูล
+      <button> = ปุ่มส่งข้อมูล
+    -->
+
+    <!-- ตัวอย่างแบบฟอร์ม -->
+    <form action="/api/sign-up" method="post">
+      <section>
+        <label for="full-name">Full-name:</label>
+        <input
+          id="full-name"
+          name="full_name"
+          type="text"
+          placeholder="Please input your name"
+          required
+        />
+      </section>
+      <section>
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Please input your email"
+          required
+        />
+      </section>
+      <section>
+        <label for="password">Password:</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Please input your password (Must be strong)"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$"
+          required
+        />
+        <small>
+          <ul>
+            <li>Your password must be at least 8 characters long.</li>
+            <li>Include at least one uppercase letter (A-Z).</li>
+            <li>Include at least one lowercase letter (a-z).</li>
+            <li>Include at least one number (0-9).</li>
+          </ul>
+        </small>
+      </section>
+      <section>
+        <input id="accept-term" type="checkbox" required />
+        <label for="accept-term">Agree to Terms and Conditions</label>
+      </section>
+      <section>
+        <button>Submit</button>
+      </section>
+    </form>
+  </body>
+</html>

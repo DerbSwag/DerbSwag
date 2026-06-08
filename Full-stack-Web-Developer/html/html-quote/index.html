@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      .with-styles q {
+        font-style: italic;
+        color: #555;
+        border-left: 3px solid #6c63ff;
+        padding-left: 8px;
+        quotes: '“' '”' '‘' '’';
+      }
+
+      .with-styles q::before {
+        content: open-quote;
+        color: #6c63ff;
+        font-size: 1.2em;
+        vertical-align: -0.2em;
+      }
+
+      .with-styles q::after {
+        content: close-quote;
+        color: #6c63ff;
+        font-size: 1.2em;
+        vertical-align: -0.2em;
+      }
+
+      .with-styles blockquote {
+        background-color: #f8f9fa;
+        border-left: 5px solid #6c63ff;
+        padding: 12px 16px;
+        margin: 16px 0;
+        font-style: italic;
+        color: #333;
+        font-size: 1.1em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .with-styles cite {
+        display: block;
+        text-align: right;
+        font-style: normal;
+        color: #6c63ff;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+
+      .with-styles address {
+        font-style: normal;
+        font-size: 0.9em;
+        color: #333;
+        background-color: #f4f4f4;
+        padding: 10px 14px;
+        border-radius: 6px;
+        border: 1px solid #e0e0e0;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <q>Quote</q><br />
+    <blockquote>Block Quote</blockquote>
+    <cite>Citation</cite><br />
+    <address>Address</address>
+
+    <hr />
+
+    <section class="with-styles">
+      <q>Quote</q><br />
+      <blockquote>Block Quote</blockquote>
+      <cite>Citation</cite><br />
+      <address>Address</address>
+    </section>
+  </body>
+</html>

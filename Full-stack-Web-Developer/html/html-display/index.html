@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      .with-styles {
+        display: grid;
+        grid-template-areas:
+          'nav nav nav'
+          'header header header'
+          'aside main main'
+          'aside main main'
+          'footer footer footer';
+        grid-template-rows: auto auto 1fr 1fr auto;
+        grid-template-columns: auto;
+        gap: 10px;
+        height: 100vh;
+
+        nav {
+          grid-area: nav;
+          background-color: #ff9999; /* Light red */
+        }
+
+        header {
+          grid-area: header;
+          background-color: #ffcc99; /* Light orange */
+        }
+
+        aside {
+          grid-area: aside;
+          background-color: #ffff99; /* Light yellow */
+        }
+
+        main {
+          grid-area: main;
+          display: grid;
+          grid-template-rows: repeat(1fr, 3);
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            'article'
+            'section1'
+            'section2';
+          gap: 10px;
+          background-color: #e6f7ff; /* Light cyan */
+        }
+
+        article {
+          grid-area: article;
+          background-color: #99ccff; /* Light blue */
+        }
+
+        section:nth-of-type(1) {
+          grid-area: section1;
+          background-color: #cc99ff; /* Light purple */
+        }
+
+        section:nth-of-type(2) {
+          grid-area: section2;
+          background-color: #ff99cc; /* Light pink */
+        }
+
+        footer {
+          grid-area: footer;
+          background-color: #ffcccb; /* Light coral */
+        }
+      }
+
+      /* Responsive Layout */
+      @media (max-width: 768px) {
+        .with-styles {
+          grid-template-areas:
+            'nav'
+            'header'
+            'aside'
+            'main'
+            'footer';
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+
+        main {
+          grid-template-rows: auto auto auto;
+          grid-template-areas:
+            'article'
+            'section1'
+            'section2';
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Generic Tag -->
+    <div>Block</div>
+    <div>Block</div>
+    <div>Block</div>
+
+    <span>Inline</span>
+    <span>Inline</span>
+    <span>Inline</span>
+
+    <hr />
+
+    <!-- Semantic Tag -->
+    <nav>Navigation</nav>
+    <header>Header</header>
+    <main>Main</main>
+    <footer>Footer</footer>
+    <section>Section</section>
+    <article>Article</article>
+    <aside>Aside</aside>
+
+    <hr />
+
+    <!-- Semantic Tag with CSS -->
+    <div class="with-styles">
+      <nav>Navigation</nav>
+      <header>Header</header>
+      <aside>Aside</aside>
+      <main>
+        <article>Article</article>
+        <section>Section 1</section>
+        <section>Section 2</section>
+      </main>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
