@@ -1,6 +1,5 @@
 ﻿# Hi, I'm Natthawat (DerbSwag) 👋
 
-**IT Infrastructure Engineer → DevOps Engineer**
 
 Sole IT engineer in manufacturing environments (100+ users) — running real infrastructure across networking, firewall, server operations, and automation. Now building DevOps skills through a hands-on hybrid lab (Home Lab k3s + Company Lab Proxmox VE) with production-like stacks.
 
