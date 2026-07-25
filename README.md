@@ -1,292 +1,214 @@
-﻿# Hi, I'm Natthawat (DerbSwag) 👋
+# Hi, I'm Natthawat (DerbSwag) 👋
 
+IT/System Infrastructure Engineer based in Chonburi, Thailand. I work as the primary hands-on IT engineer in a manufacturing environment supporting 100+ users, covering networking, FortiGate firewall, Windows/Linux servers, monitoring, automation, and day-to-day IT operations.
 
-Sole IT engineer in manufacturing environments (100+ users) — running real infrastructure across networking, firewall, server operations, and automation. Now building DevOps skills through a hands-on hybrid lab (Home Lab k3s + Company Lab Proxmox VE) with production-like stacks.
+I am building toward Cloud/DevOps roles through hands-on labs with Proxmox VE, k3s Kubernetes, ArgoCD, Terraform, Ansible, Prometheus/Grafana/Loki, and GitHub Actions.
 
 📍 Chonburi, Thailand  |  📧 natthawat.derb@gmail.com  |  💼 [github.com/DerbSwag](https://github.com/DerbSwag)
-
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
 ---
 
-## 🔭 Currently Working On
+## Career Focus
 
-- 🤖 **AI Helpdesk Bot** — Ollama-powered IT support chatbot for Lark (proposal stage)
-- 🏗️ **Hybrid Lab** — WireGuard VPN tunnel (Home ↔ Company), bind9 DNS
-- ☁️ **AWS Terraform Lab** — Adding RDS, ALB, Route53, remote state
-- 📚 **DevOps Assistant Agent** — RAG-powered chatbot on Google Cloud Agent Builder
+**Infrastructure Engineer → Cloud/DevOps → Platform / DevSecOps**
 
+Strongest areas:
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DerbSwag&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DerbSwag&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=ff6e40&currStreakLabel=58a6ff" height="160" />
-</p>
-
----
-
-## 💻 Tech Stack
-
-<p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /></a>
-  <a href="https://kubernetes.io/"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" /></a>
-  <a href="https://helm.sh/"><img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" /></a>
-  <a href="https://argo-cd.readthedocs.io/"><img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" /></a>
-  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" /></a>
-  <a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" /></a>
-  <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" /></a>
-  <a href="https://www.proxmox.com/"><img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" /></a>
-  <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /></a>
-  <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /></a>
-  <a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" /></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /></a>
-  <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /></a>
-  <a href="https://www.fortinet.com/"><img src="https://img.shields.io/badge/FortiGate-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /></a>
-  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /></a>
-  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
-
-**Actively running in lab:**
-`Docker` `Docker Compose` `Kubernetes (k3s)` `Helm` `ArgoCD` `GitHub Actions` `Self-hosted Runner` `GHCR` `Prometheus` `Grafana` `Loki` `Alertmanager` `Zabbix v7` `Proxmox VE` `Ubuntu Server 24.04` `FastAPI` `PostgreSQL` `Python` `Bash` `Terraform` `Ansible`
-
-**Kubernetes concepts mastered (verified in lab):**
-`Deployments` `StatefulSet` `DaemonSet` `RBAC` `Ingress + TLS` `cert-manager` `HPA` `NetworkPolicy` `Helm packaging` `GitOps (ArgoCD)`
-
-**Enterprise IT (production experience):**
-`FortiGate 60F` `MikroTik` `VLAN Segmentation` `VPN / NAT / Firewall` `QNAP NAS` `VMware` `Backup & DR` `SQL Server` `PowerShell` `Google Workspace` `GLPI`
-
-**Learning next:**
-`Jenkins` `WireGuard VPN` `AWS / Azure fundamentals`
+- Infrastructure operations for manufacturing IT environments
+- FortiGate firewall, VLAN segmentation, VPN, NAT, and network troubleshooting
+- Windows/Linux server support and monitoring
+- Zabbix, Prometheus, Grafana, Loki, and alerting workflows
+- Python, PowerShell, Bash, SQL, and GLPI API automation
+- Proxmox, Kubernetes, GitOps, Terraform, and Ansible labs
 
 ---
 
-## 🏗️ Hybrid Lab Architecture
+## Currently Working On
 
-```
-[ Company Lab — Proxmox VE Cluster ]
-  ├── pve01 (i5-7400 / 16GB RAM)  ──┐
-  └── pve02 (i3-8100 / 8GB RAM)   ──┴── 2-node Proxmox cluster
-        ├── k8s-master
-        ├── k8s-worker-01
-        └── k8s-worker-02
-              ├── Zabbix v7.0  — 14 hosts (K8s nodes, Windows servers, CCTV SNMP)
-              ├── Prometheus + Grafana + Alertmanager → Lark
-              ├── ArgoCD (GitOps, auto-sync)
-              └── FastAPI (Helm chart)
-
-[ Home Lab — k3s Single Node ]
-  └── DevOpsLab
-        ├── k3s — 8-level Kubernetes curriculum (all completed)
-        ├── Prometheus + Grafana + Loki + Alertmanager → Discord
-        ├── ArgoCD (auto-sync + self-heal on Helm drift)
-        ├── cert-manager (self-signed TLS, ClusterIssuer)
-        └── CI/CD: GitHub Actions → GHCR → Docker Compose deploy
-
-[ Perimeter ]
-  └── FortiGate 60F — VPN, NAT, VLAN segmentation, firewall policy
-```
+- **Hybrid Infrastructure Lab** — Proxmox VE, k3s, ArgoCD, monitoring, and infrastructure documentation
+- **Windows IT Automation** — endpoint onboarding, GLPI asset registration, inventory collection, and Zabbix Agent deployment
+- **AWS Terraform Lab** — expanding VPC/EC2 labs with ALB, RDS, Route 53, and remote state
+- **AI-assisted Operations** — RAG/LLMOps experiments for IT knowledge-base and support workflows
 
 ---
 
-## 🚀 Projects
-
-### 🔧 DevOps & Infrastructure
-
-### [DevOps FastAPI Lab](https://github.com/DerbSwag/Devops-fastapi-lab)
-Production-style hybrid lab running FastAPI across a full Kubernetes + GitOps + observability stack.
-
-- **8-level Kubernetes curriculum** — Deployment → StatefulSet → DaemonSet → RBAC → Ingress/TLS → HPA → GitOps → Loki logging
-- **CI/CD pipeline** — GitHub Actions → GHCR → self-hosted runner → Docker Compose. ArgoCD handles Helm sync with auto-sync and self-heal
-- **Observability** — Prometheus + Grafana + Loki + Alertmanager → Discord/Lark
-- **Company Lab** — Zabbix v7.0 monitoring 14 hosts including Hikvision CCTV via SNMP v2c
-
-`k3s` `ArgoCD` `GitHub Actions` `Helm` `Prometheus` `Grafana` `Loki` `Zabbix` `Proxmox VE` `FastAPI` `PostgreSQL`
-
----
+## Featured Projects
 
 ### [Windows IT Automation Toolkit](https://github.com/DerbSwag/IT-Automation-Toolkit)
-Production toolkit for endpoint onboarding, GLPI asset management, and Lark integration — used daily managing 100+ users.
+Production-used toolkit for endpoint onboarding, inventory collection, GLPI asset management, and Zabbix Agent deployment.
 
-- **Endpoint automation** — One-click inventory collection + silent GLPI Agent deployment
-- **GLPI API scripts** — Create department groups, bulk fix device status, auto-register devices
-- **Web registration portal** — Self-service device registration (PHP + GLPI API)
-- **Lark integration** — Bridge GLPI notifications → Lark messaging
-- **Impact** — Reduced endpoint onboarding from ~45 min to ~5 min per device
+- One-click inventory collection and silent GLPI Agent deployment
+- GLPI API scripts for bulk asset registration and device status updates
+- Zabbix Agent deployment helper for monitored endpoints
+- Impact: reduced endpoint onboarding from ~45 minutes to ~5 minutes per device
 
-`PowerShell` `Batch` `PHP` `GLPI API` `GitHub Actions`
-
----
-
-### [Factory Attendance Dashboard](https://github.com/DerbSwag/factory_demo)
-Desktop attendance system simulating employee time tracking in a manufacturing environment.
-
-- Attendance status logic (Present / Absent / OT / Irregular) with overtime calculation
-- Data processing with Python + Pandas; real-time filtering by department, date, keyword
-- Excel export with auto-generated filename; test suite with pytest
-
-`Python` `Tkinter` `Pandas` `openpyxl` `Faker` `pytest`
+`PowerShell` `Batch` `PHP` `GLPI API` `Zabbix` `Windows`
 
 ---
 
-### [Content Automation Pipeline](https://github.com/DerbSwag/content-automation-pipeline)
-End-to-end automation system for content creation, processing, and multi-platform distribution.
+### [Proxmox k3s Infrastructure Lab](https://github.com/DerbSwag/proxmox-k8s-infra)
+Production-style infrastructure lab covering virtualization, Kubernetes, GitOps, monitoring, automation, and runbook documentation.
 
-- **One-command pipeline** — Scan, process, generate metadata, create covers, distribute
-- **Multi-platform distribution** — YouTube Shorts, TikTok, 24/7 live stream (RTMP)
-- **Media processing** — FFmpeg audio/video, Pillow cover art generation
-- **Monitoring** — Health check with LINE alert on stream failure
-- **VPS provisioning** — One-command server setup (Docker, FFmpeg, systemd)
+- Proxmox VE 2-node cluster running a 3-node k3s Kubernetes lab
+- ArgoCD GitOps workflow with auto-sync patterns
+- Zabbix v7 monitoring for servers, Kubernetes nodes, Windows hosts, and CCTV SNMP
+- Prometheus, Grafana, Loki, and Alertmanager for observability labs
+- Terraform and Ansible used for infrastructure automation practice
 
-`Python` `Bash` `FFmpeg` `YouTube API` `TikTok API` `LINE API` `GCP`
+`Proxmox VE` `k3s` `ArgoCD` `Terraform` `Ansible` `Zabbix` `Prometheus` `Grafana` `Loki`
+
 ---
+
+### [DevOps FastAPI Lab](https://github.com/DerbSwag/Devops-fastapi-lab)
+Production-style FastAPI DevOps lab covering containerization, Kubernetes deployment, GitOps, CI/CD, and observability.
+
+- Kubernetes learning path: Deployment, StatefulSet, DaemonSet, RBAC, Ingress/TLS, HPA, GitOps, and Loki logging
+- CI/CD workflow with GitHub Actions, GHCR, Docker, Helm, and ArgoCD
+- Observability with Prometheus, Grafana, Loki, and Alertmanager
+
+`FastAPI` `Docker` `Kubernetes` `Helm` `GitHub Actions` `GHCR` `ArgoCD` `Prometheus` `Grafana` `Loki`
 
 ---
 
 ### [AWS Terraform Lab](https://github.com/DerbSwag/aws-terraform-lab)
-Infrastructure as Code — Deploy production-like FastAPI on AWS with Terraform.
+Infrastructure-as-Code lab using Terraform to provision AWS infrastructure for a Docker/FastAPI deployment.
 
-- VPC + EC2 + Security Groups + Docker deployment
-- User data bootstrap (Docker + Nginx + FastAPI)
-- CI: terraform fmt + validate
+- VPC, EC2, Security Groups, and basic network layout
+- Docker and Nginx bootstrap through user data
+- CI checks for Terraform formatting and validation
 
 `Terraform` `AWS` `Docker` `Nginx` `FastAPI`
 
 ---
 
 ### [Ansible Playbooks](https://github.com/DerbSwag/ansible-playbooks)
-Ansible playbooks for hybrid lab automation across Home Lab and Company Lab.
+Hybrid lab automation playbooks for provisioning, Docker deployment, monitoring setup, and Linux security hardening.
 
-- Docker setup, FastAPI deploy, Monitoring stack, Server hardening
-- Jinja2 templates for Docker Compose, Nginx, Prometheus
+- Docker setup and FastAPI deployment automation
+- Monitoring stack templates for Prometheus/Grafana workflows
+- Linux hardening and configuration management practice
 
-`Ansible` `Docker` `Ubuntu` `Prometheus` `Grafana`
-
----
-
-### [DevOps Assistant Agent](https://github.com/DerbSwag/devops-assistant-agent)
-AI-powered DevOps Assistant on Google Cloud Agent Builder with RAG.
-
-- Gemini 2.5 Pro + Data Store grounding (28 knowledge files)
-- Answers questions about Terraform, Ansible, Docker, CI/CD, LLMOps
-
-`Google Cloud` `Gemini` `RAG` `Vertex AI` `Python`
+`Ansible` `Jinja2` `Docker` `Ubuntu` `Prometheus` `Grafana`
 
 ---
 
 ### [LLMOps Platform Lab](https://github.com/DerbSwag/llmops-platform-lab)
-Production-grade MLOps/LLMOps Lab — LLM Gateway, RAG Pipeline, AI Security, Monitoring.
+Production-style AI infrastructure lab covering LLM Gateway, RAG pipeline, AI security, and monitoring.
 
-- LLM Gateway (FastAPI) with model routing
-- RAG pipeline + Prompt Guard + AI security scanning
-- Prometheus + Grafana observability
+- FastAPI-based LLM Gateway pattern
+- RAG pipeline and prompt/security guard concepts
+- Prometheus and Grafana observability for AI services
 
-`Python` `Docker` `FastAPI` `Prometheus` `Grafana` `RAG`
-
-
+`Python` `Docker` `FastAPI` `RAG` `Prometheus` `Grafana`
 
 ---
 
-### 🌐 Web Development
+### [DevOps Assistant Agent](https://github.com/DerbSwag/devops-assistant-agent)
+RAG-powered AI assistant experiment using Google Cloud Agent Builder and Gemini for DevOps knowledge-base questions.
 
-### [เหมียวเอ็น MeowN — Premium Cat Services](https://meown-website.vercel.app/)
-Company profile website — Dark premium design with Aurora background, 3D effects, glassmorphism, custom cursor.
-
-- **6 pages** — Hero + Services + About + Portfolio + Reviews + FAQ + Contact + 4 Service Detail Pages
-- **Admin Dashboard** — Lead management, content editor, analytics, backup system
-- **Advanced UI** — Aurora background, custom cursor, 3D tilt card, scroll reveal animations
-
-🔗 [Live Demo](https://meown-website.vercel.app/) · `HTML5` `CSS3` `JavaScript` `Vercel`
+`Google Cloud` `Gemini` `RAG` `Python` `Terraform` `Ansible`
 
 ---
 
-### [Zone Sleep Hotel — Luxury Boutique Hotel](https://zone-sleep-hotel.vercel.app/)
-Full-stack hotel website with complete booking system, i18n (TH/EN), and admin dashboard.
+### [Factory Attendance Dashboard](https://github.com/DerbSwag/factory_demo)
+Portfolio version of a factory attendance and OT workflow, built with dummy data for safe public sharing.
 
-- **3-step booking** — Guest info → Payment/slip upload → Receipt + QR Code
-- **i18n** — Thai/English language switching
-- **Admin** — Login + 24hr session, booking management, room CRUD, settings
-- **Database** — localStorage module with locking mechanism
+- Attendance status logic and OT calculation
+- Filtering by department, date, and keyword
+- Excel export and pytest-based test suite
 
-🔗 [Live Demo](https://zone-sleep-hotel.vercel.app/) · `HTML5` `CSS3` `JavaScript` `QRCode.js` `Vercel`
-
----
-
-## 📊 Infrastructure Status
-
-| Component | Environment | Status |
-|---|---|---|
-| k3s cluster (3-node) | Company Lab (Proxmox) | ✅ Running |
-| k3s single node | Home Lab | ✅ Running |
-| ArgoCD GitOps | Both | ✅ Running |
-| Prometheus + Grafana | Both | ✅ Running |
-| Loki logging stack | Home Lab | ✅ Running |
-| Zabbix v7 (14 hosts) | Company Lab | ✅ Running |
-| Alertmanager → Discord | Home Lab | ✅ Running |
-| Alertmanager → Lark | Company Lab | ✅ Running |
-| CI/CD (Actions + GHCR) | Home Lab | ✅ Running |
-| FortiGate 60F (perimeter) | Company Lab | ✅ Running |
-| bind9 DNS server | Company Lab | 🔄 In Progress |
-| VPN tunnel (Home ↔ Company) | Both | 📋 Planned |
-| Terraform IaC | Both | ✅ Running |
-| Ansible config management | Both | ✅ Running |
+`Python` `Tkinter` `Pandas` `openpyxl` `pytest`
 
 ---
 
-## 💼 Work Experience
+## Production Experience
 
-**IT Infrastructure & System Operations Engineer** — PJ Chonburi Parawood Co., Ltd. *(Jun 2025 – Present)*
+**IT Support — scope: IT/System Infrastructure Operations**  
+PJ Chonburi Parawood Co., Ltd. *(Jun 2025 – Present)*
 
-Sole IT engineer for a manufacturing facility (100+ users). Responsible for all networking, server ops, and automation.
+Primary hands-on IT engineer for a manufacturing facility with 100+ users.
 
-- VLAN segmentation (Office / Server / CCTV) on FortiGate 60F — improved network isolation and stability
-- Python ETL pipeline: SQL Server OT/HR data → Google Sheets — reduced ~3 hrs/week to under 10 minutes
-- PowerShell + GLPI automation toolkit — endpoint onboarding from ~45 min to ~5 min per device
-- Backup & DR management including scheduled restore testing
+- Maintained FortiGate firewall, VLAN segmentation, SSL VPN, NAT, and network troubleshooting
+- Supported Windows/Linux servers, factory systems, endpoints, printers, CCTV, and user operations
+- Deployed Zabbix v7 monitoring for servers, Kubernetes nodes, Windows hosts, and CCTV SNMP
+- Built Python ETL workflow: SQL Server OT/HR data → Google Sheets, reducing ~3 hours/week to under 10 minutes
+- Built PowerShell/Batch automation for endpoint onboarding, inventory collection, GLPI, and Zabbix Agent deployment
+- Created SOP, runbook, handover, and incident documentation for recurring IT operations
+- Managed backup operations and basic restore checks; currently strengthening DR planning and restore-test process
 
-**IT Infrastructure Support Engineer** — Yuan Lin (Thailand) Co., Ltd. *(Oct 2024 – May 2025)*
+**IT Infrastructure Support Engineer**  
+Yuan Lin (Thailand) Co., Ltd. *(Oct 2024 – May 2025)*
 
-- QNAP NAS: file sharing, backup configuration, access control
-- MikroTik network administration and VLAN segmentation
-- Remote support via AnyDesk — reduced response time and minimized downtime
-
----
-
-## 📚 Kubernetes Learning Path
-
-**Completed (Levels 1–8):**
-- ✅ L1–L2: Deployment fundamentals, resource management
-- ✅ L3: StatefulSet (PostgreSQL with PersistentVolume)
-- ✅ L4: DaemonSet, NetworkPolicy
-- ✅ L5: RBAC — ServiceAccount, Role, ClusterRoleBinding
-- ✅ L6: Ingress + TLS with cert-manager (self-signed)
-- ✅ L7: HPA — load testing, verified CPU-triggered scaling
-- ✅ L8: GitOps (ArgoCD auto-sync + self-heal) + Loki logging stack
-
-**Coming Next:**
-- 🎯 WireGuard/Tailscale VPN — site-to-site tunnel (Home ↔ Company)
-- 🎯 Jenkins — self-hosted CI server
+- Administered MikroTik network, VLAN segmentation, and QNAP NAS operations
+- Managed GLPI helpdesk, remote support, endpoint support, and user troubleshooting
+- Maintained company website, SEO updates, and Google Business Profile
 
 ---
 
-## 🎓 Education & Certifications
+## Lab Experience
 
-**Diploma — Digital Business Technology**
+```text
+[ Company Lab — Proxmox VE Cluster ]
+  ├── 2-node Proxmox VE cluster
+  ├── 3-node k3s Kubernetes lab
+  ├── Zabbix v7 monitoring — servers, K8s nodes, Windows hosts, CCTV SNMP
+  ├── Prometheus + Grafana + Alertmanager → Lark
+  ├── ArgoCD GitOps lab
+  └── Terraform + Ansible infrastructure automation practice
+
+[ Home Lab — k3s Single Node ]
+  ├── k3s Kubernetes learning path
+  ├── Prometheus + Grafana + Loki + Alertmanager → Discord
+  ├── ArgoCD auto-sync and self-heal practice
+  ├── cert-manager and Ingress/TLS labs
+  └── GitHub Actions → GHCR → Docker/Helm deployment practice
+
+[ Perimeter / Network ]
+  └── FortiGate 60F — VPN, NAT, VLAN segmentation, firewall policy
+```
+
+---
+
+## Tech Stack
+
+**Production / hands-on work:**  
+`FortiGate 60F` `MikroTik` `VLAN` `SSL VPN` `NAT` `Firewall Policy` `Windows Server` `Linux` `Zabbix v7` `GLPI` `SQL Server` `QNAP NAS` `PowerShell` `Python` `Bash` `Google Workspace`
+
+**Lab / portfolio:**  
+`Proxmox VE` `k3s` `Docker` `Kubernetes` `Helm` `ArgoCD` `GitHub Actions` `GHCR` `Terraform` `Ansible` `Prometheus` `Grafana` `Loki` `Alertmanager` `FastAPI` `PostgreSQL` `AWS`
+
+**Learning next:**  
+`VMware vSphere` `Veeam` `AD/GPO` `AWS/Azure` `WireGuard/Tailscale` `SRE concepts`
+
+---
+
+## Additional Web Projects
+
+These are secondary portfolio projects, mainly for UI/web production and automation practice.
+
+- [MeowN — Premium Cat Services](https://meown-website.vercel.app/) — company profile website with responsive pages, lead/admin concepts, and UI effects
+- [Zone Sleep Hotel](https://zone-sleep-hotel.vercel.app/) — hotel website demo with booking flow, Thai/English UI, and local admin workflow
+
+`HTML` `CSS` `JavaScript` `Vercel`
+
+---
+
+## Education & Certifications
+
+**Diploma — Digital Business Technology**  
 Bangkok Technical Business Administration Vocational College | GPA: 3.36
 
 **Certifications:**
+
 - Google AI Essentials — Google
 - Google Prompting Essentials — Google
 - Python Programming — FutureSkill
@@ -295,14 +217,14 @@ Bangkok Technical Business Administration Vocational College | GPA: 3.36
 
 ---
 
-## 📫 Connect
+## Connect
 
-- 📧 natthawat.derb@gmail.com
-- 📍 Chonburi, Thailand
-- 💼 [github.com/DerbSwag](https://github.com/DerbSwag)
+- Email: natthawat.derb@gmail.com
+- Location: Chonburi, Thailand
+- GitHub: [github.com/DerbSwag](https://github.com/DerbSwag)
 
-Open to: DevOps / Infrastructure Engineer roles, automation collaborations, homelab discussions
+Open to: System / Infrastructure Engineer roles, network/system implementation, junior cloud/devops opportunities, and automation-focused IT operations.
 
 ---
 
-*Building real infrastructure. Every level committed to Git.*
+*Building infrastructure, automation, and production-style labs one practical step at a time.*
