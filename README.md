@@ -38,8 +38,8 @@ Strongest areas:
 
 - Hybrid Infrastructure Lab: Proxmox VE, k3s, ArgoCD, monitoring, and infrastructure documentation
 - Windows IT Automation: endpoint onboarding, inventory collection, GLPI asset workflows, and Zabbix Agent deployment
-- AWS Terraform Lab: VPC, EC2, security groups, user data, CI validation, and planned ALB/RDS/remote state expansion
-- AI-assisted Operations: RAG/LLMOps experiments for IT knowledge-base search and support workflows
+- AWS Terraform Lab: practicing Terraform with VPC, EC2, security groups, user data, CI validation, and planned ALB/RDS expansion
+- AI-assisted Lab Work: using AI tools for documentation, troubleshooting notes, README cleanup, and RAG/LLMOps learning experiments
 
 ---
 
@@ -123,25 +123,26 @@ Hands-on Ansible lab for practicing Linux provisioning, Docker deployment, monit
 
 ---
 
-### AI-Assisted Operations Labs
+### AI-Assisted Learning / Documentation Labs
 
 #### [LLMOps Platform Lab](https://github.com/DerbSwag/llmops-platform-lab)
 
-Hands-on AI infrastructure lab for practicing LLM gateway, RAG pipeline, security guardrails, and observability concepts.
+Hands-on learning lab for exploring LLM gateway, RAG pipeline, security guardrails, and observability concepts with AI-assisted development support.
 
 - FastAPI-based LLM gateway pattern
-- RAG pipeline and prompt/security guard concepts
-- Prometheus and Grafana observability for AI service experiments
+- RAG pipeline and prompt/security guard concept practice
+- Prometheus and Grafana observability practice for AI service experiments
+- Built with AI-assisted documentation, troubleshooting, and implementation support
 
 `Python` `Docker` `FastAPI` `RAG` `Prometheus` `Grafana`
 
 #### [DevOps Assistant Agent Lab](https://github.com/DerbSwag/devops-assistant-agent)
 
-Hands-on RAG assistant lab using Google Cloud Agent Builder and Gemini for DevOps knowledge-base questions.
+Hands-on RAG assistant lab using Google Cloud Agent Builder and Gemini to explore DevOps knowledge-base question answering.
 
 - Knowledge-base assistant concept for infrastructure and DevOps notes
 - Gemini-based RAG workflow experiment
-- AI-assisted operations practice for support and documentation workflows
+- AI-assisted learning workflow for support notes, documentation, and troubleshooting practice
 
 `Google Cloud` `Gemini` `RAG` `Python` `Terraform` `Ansible`
 
