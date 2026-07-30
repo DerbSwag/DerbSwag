@@ -85,7 +85,8 @@ Public-safe infrastructure lab based on real hands-on infrastructure practice, c
 - ArgoCD GitOps workflow with auto-sync, repository authentication recovery, app change, and self-heal practice
 - Zabbix v7 monitoring practice for servers, Kubernetes nodes, Windows hosts, and SNMP devices
 - Prometheus, Grafana, Loki, Alertmanager, dashboard, and alerting labs
-- PostgreSQL backup, remote backup copy, checksum verification, and cleanup/runbook practice
+- PostgreSQL backup, remote backup copy, checksum verification, restore drill, and cleanup/runbook practice
+- Linux incident recovery notes covering systemd degraded state, logrotate troubleshooting, and shell PATH recovery
 - Terraform and Ansible infrastructure automation practice
 
 `Proxmox VE` `k3s` `ArgoCD` `Terraform` `Ansible` `Zabbix` `Prometheus` `Grafana` `Loki`
