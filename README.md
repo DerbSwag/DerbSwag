@@ -38,7 +38,7 @@ Strongest areas:
 
 - Hybrid Infrastructure Lab: Proxmox VE, k3s, ArgoCD, monitoring, and infrastructure documentation
 - Windows IT Automation: endpoint onboarding, inventory collection, GLPI asset workflows, and Zabbix Agent deployment
-- AWS Terraform Lab: practicing Terraform with VPC, EC2, security groups, user data, CI validation, and planned ALB/RDS expansion
+- AWS Terraform Lab: practicing Terraform with VPC, EC2, security groups, user data, CI validation, remote-state bootstrap code/docs, and planned ALB/RDS expansion
 - AI-assisted Lab Work: using AI tools for documentation, troubleshooting notes, README cleanup, and RAG/LLMOps learning experiments
 
 ---
@@ -108,9 +108,10 @@ Hands-on AWS Infrastructure-as-Code lab using Terraform to practice provisioning
 - VPC, EC2, security groups, and basic network layout
 - Docker and Nginx bootstrap through EC2 user data
 - CI checks for Terraform formatting and validation
-- Planned practice areas: ALB, RDS, Route 53, and remote state
+- Remote-state bootstrap code/docs with S3 backend and DynamoDB locking pattern
+- Planned practice areas: ALB, private subnets, RDS, and Route 53
 
-`Terraform` `AWS` `EC2` `VPC` `Docker` `Nginx` `FastAPI`
+`Terraform` `AWS` `EC2` `VPC` `S3` `DynamoDB` `Docker` `Nginx` `FastAPI`
 
 #### [Ansible Playbooks Lab](https://github.com/DerbSwag/ansible-playbooks)
 
